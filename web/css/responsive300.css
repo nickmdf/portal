@@ -1,0 +1,171 @@
+@media screen and (max-width: 500px) {
+	body {
+		font-size: .5em !important;
+	}
+	#detail_content_wrapper {
+	width: 300px;
+	margin-left: 0;
+	top: 73px;
+	}
+	#detail_screen_back {
+		width: 94px;
+		height: 67px;
+		left: 0;
+		top: 0;
+	}
+	#detail_icon {
+		position: absolute;
+		width: 29px;
+		height: 29px;
+		top: 38px;
+		left: 244px;
+	}
+	#mr1_content table {
+		width: 288px !important;
+	}
+	#detail_address {
+		position: relative !important;
+		top: 70px;
+		left: 24px;
+	}
+	#detail_heading {
+		position: absolute;
+		top: 47px;
+		left: 100px;
+		margin: 0;
+		font-size: 2em !important;
+	}
+	#ms3_content textarea, #ms4_content textarea, #ms5_content textarea, #a3_content textarea, #contact_comments {
+		width: 276px !important;
+	}
+	#patient_medications_table div, #mr5_content table, #medical_history, #mr7_content table, #mr8_content table, 
+	#mr9_content table, #ms1_content table, #ms2_content table, #a1_content table, #a2_content table {
+		width: 288px !important;
+	}
+	#tile1, #r1c1, #r1c2, #r2c3, #r6c3 {
+		width: 94px;
+		height: 32px;
+	}
+	#home_link, #r2c1, #r6c1, #r7c4 {
+		width: 194px;
+		height: 32px;
+	}
+	#med_records_link_back, #r3c1, #r5c1, #mr1, #mr2, #mr3, #mr4, #mr5, #mr6, #mr7, #mr8, #mr9, #ms1, #ms2, #ms3, #ms4, #ms5, #ms6, #message_center_link_back, #r4c1, #appt_link_back, #a1, #a2, #a3, #med_records_link, #message_center_link, 
+	#appt_link, #r5c1, #message_link, #r5c4, #faq_link, #r3c5, #reg_link, #r4c5, #admin_link, #r5c3, #family_link, #r5c2, 
+	#loginForm, #r5c5 {
+		width: 94px;
+		height: 67px;
+	}
+	#r1c3, #r2c4, #r2c5, #med_records_img1, #med_records_img2, #r7c3, #r6c4, #r6c5, #mr9, #ms6, #home_screen, #contact_wdm {
+		display: none !important;
+	}
+	#r1c4 {
+		color: #BADAFF;
+		font-size: .4em !important;
+		font-weight: bold;
+		top: 26px;
+		left: 200px;
+	}
+	#app_title{
+		left: 0;
+	}
+	#serpent {
+		position: absolute;
+		display: block !important;
+		width: 30px !important;
+		left: 70px !important;
+		top: 10px !important;
+	}
+	#login_username, #login_password{
+		width: 80px !important;
+		height: 6px !important;
+	}
+	#loginForm div{
+		margin: 0 !important;
+	}
+	#loginForm label {
+		display: none;
+	}
+	#message_link, #loginForm{
+		background-color: #00CFCE !important;
+	}
+	#message_link:hover, #loginForm:hover{
+		background-color: #00E8E6 !important;
+	}
+	#r3c1, #r3c5, #r5c4 {
+		top: 114px;
+	}
+	#r5c2, #r5c4, #r5c5{
+		left: 100px;
+	}
+	#r3c5, #r4c5, #r5c3 {
+		left: 200px;
+	}
+	#r4c1, #r4c5, #r5c5 {
+		top: 187px;
+	}
+	#r5c1, #r5c3, #r5c2 {
+		top: 260px;
+	}
+	#tile1, #r1c1, #r1c2 {
+		top: 38px;
+	}
+	#r2c1, #r2c3 {
+		top: 76px;
+	}
+	#r1c2 {
+		left: 100px;
+	}
+	#r2c3 {
+		left: 200px;
+	}
+	#r6c1, #r6c3 {
+		top: 333px;
+	}
+	#r6c3 {
+		left: 200px;
+	}
+	#r7c4 {
+		top: 371px;
+		left: 100px;
+	}
+	#r8c4 {
+		top: 409px;
+		left: 110px;
+	}
+	#r7c4 p {
+		bottom: 10px;
+		left: 20px;
+	}
+	#red_cross {
+		width: 30px;
+		left: 160px;
+	}
+	#welcome_message {
+		left: 168px;
+		margin-top: 18px;
+		width: 200px;
+		height: 70px;
+	}
+	#mr1, #mr2, #ms1, #ms2 {
+		top: -47px;
+	}
+	#mr1, #mr4, #mr7, #ms1, #ms4, #a2 {
+		left: -40px;
+	}
+	#mr2, #mr5, #mr8, #ms2, #ms5, #a3 {
+		left: 61px;
+	}
+	#mr3, #mr6, #a1, #ms3 {
+		left: -139px;
+	}
+	#mr3, #mr4, #mr5, #ms3, #ms4, #ms5, #a1, #a2, #a3 {
+		top: 26px;
+	}
+	#mr6, #mr7, #mr8 {
+		top: 99px;
+	}
+	#appt_img img {
+		width: 194px;
+	}
+}

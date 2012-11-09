@@ -1,0 +1,197 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>New User Sign Up</title>
+<meta name="viewport" content="width=980">
+<meta name="author" content="Bill Cole">
+<meta name="copyright" content="WDean Medical © Copyright 2012">
+<meta name="date" content="2012-09-07T13:19:41-04:00">
+<script type="text/javascript">
+function validate_form_25( form )
+{
+    if( ltrim(rtrim(form.elements['USERNAME'].value,' '),' ')=="" ) { alert("Please give your username"); form.elements['USERNAME'].focus(); return false; }
+    if( ltrim(rtrim(form.elements['PASSWORD'].value,' '),' ')=="" ) { alert("Please give your password"); form.elements['PASSWORD'].focus(); return false; }
+    return true;
+}
+</script>
+<script type="text/javascript">
+function validate_form_11( form )
+{
+    if( ltrim(rtrim(form.elements['NAME'].value,' '),' ')=="" ) { alert("Please give your name"); form.elements['NAME'].focus(); return false; }
+    if(!ValidateEmail(form.elements['EMAIL'].value)) { alert("Please give your e-mail address"); form.elements['EMAIL'].focus(); return false; }
+    if( ltrim(rtrim(form.elements['COMMENT'].value,' '),' ')=="" ) { alert("Please give your comment"); form.elements['COMMENT'].focus(); return false; }
+    if(!ValidateEmail(form.elements['EMAIL'].value)) { alert("Please give your e-mail address"); form.elements['EMAIL'].focus(); return false; }
+    return true;
+}
+</script>
+<style type="text/css">
+body{margin:0;padding:0;}
+.Body-P
+{
+    margin:0.0px 0.0px 12.0px 0.0px; text-align:right; font-weight:400;
+}
+.Normal-P
+{
+    margin:0.0px 0.0px 0.0px 0.0px; text-align:right; font-weight:400;
+}
+.Body-P-P0
+{
+    margin:0.0px 0.0px 0.0px 0.0px; text-align:left; font-weight:400;
+}
+.Body-C
+{
+    font-family:"Segoe UI", sans-serif; font-style:italic; font-size:16.0px; line-height:1.31em;
+}
+.Body-C-C0
+{
+    font-family:"Segoe UI", sans-serif; font-size:16.0px; line-height:1.31em;
+}
+.Normal-C
+{
+    font-family:"Segoe UI", sans-serif; color:#ffffff; font-size:13.0px; line-height:1.31em;
+}
+.Normal-C-C0
+{
+    font-family:"Verdana", sans-serif; font-size:16.0px; line-height:1.13em;
+}
+.Body-C-C1
+{
+    font-family:"Segoe UI", sans-serif; font-weight:700; color:#badaff; font-size:47.0px; line-height:1.32em;
+}
+.Button1,.Button1:link,.Button1:visited{background-image:url('wpimages/wp17bfdcd7_06.png');background-position:0px 0px;text-decoration:none;display:inline-block;background-color:transparent;border:none 0px;padding:0;}
+.Button1:focus{outline-style:none;}
+.Button1:hover{background-position:0px -44px;}
+.Button1:active{background-position:0px -22px;}
+.Button1 span,.Button1:link span,.Button1:visited span{color:#ffffff;font-family:"Segoe UI",sans-serif;font-weight:normal;text-decoration:none;text-align:center;text-transform:none;font-style:normal;left:0px;top:2px;width:100px;height:18px;font-size:13px;display:block;position:absolute;cursor:pointer;}
+</style>
+<script type="text/javascript" src="wpscripts/jspngfix.js"></script>
+<script type="text/javascript">
+var blankSrc = "wpscripts/blank.gif";
+</script>
+<script type="text/javascript" src="wpscripts/jsRollover.js"></script>
+<script type="text/javascript">
+PPImgInit('roll_7','wpimages/wp7048100f_06.png','wpimages/wp898d8e34_06.png','','',0,0);
+PPImgInit('roll_6','wpimages/wp003c5e8f_06.png','wpimages/wpb526f496_06.png','','',0,0);
+PPImgInit('roll_5','wpimages/wp003c5e8f_06.png','wpimages/wpb526f496_06.png','','',0,0);
+PPImgInit('roll_3','wpimages/wpb526f496_06.png','wpimages/wp7048100f_06.png','','',0,0);
+PPImgInit('roll_4','wpimages/wp003c5e8f_06.png','wpimages/wpb526f496_06.png','','',0,0);
+PPImgInit('roll_21','wpimages/wp7048100f_06.png','wpimages/wp898d8e34_06.png','','',0,0);
+PPImgInit('roll_22','wpimages/wpb526f496_06.png','wpimages/wp7048100f_06.png','','',0,0);
+PPImgInit('roll_30','wpimages/wp003c5e8f_06.png','wpimages/wpb526f496_06.png','','',0,0);
+PPImgInit('roll_8','wpimages/wped7ba1e1_06.png','wpimages/wp51b69439_06.png','','',0,0);
+
+</script>
+</head>
+
+<body text="#000000" style="background:#ffffff; height:1044px;">
+<div style="background-color:#ffffff;margin-left:auto;margin-right:auto;position:relative;width:980px;height:1024px;top:20px;">
+<img src="wpimages/wp003c5e8f_06.png" border="0" width="189" height="139" id="pic_72" alt="" onload="OnLoadPngFix()" style="position:absolute;left:785px;top:507px;">
+<a href="page31.html" onmouseover="PPImgAction('over','roll_7')" onmouseout="PPImgAction('out','roll_7')"><img src="wpimages/wp7048100f_06.png" border="0" width="189" height="139" id="roll_7" name="roll_7" title="" alt="FAQs" onload="OnLoadPngFix()" style="position:absolute;left:785px;top:217px;"></a>
+<a href="page29.html" onmouseover="PPImgAction('over','roll_6')" onmouseout="PPImgAction('out','roll_6')"><img src="wpimages/wp003c5e8f_06.png" border="0" width="189" height="139" id="roll_6" name="roll_6" title="" alt="Terms &amp; Conditions" onload="OnLoadPngFix()" style="position:absolute;left:396px;top:507px;"></a>
+<a href="page28.html" onmouseover="PPImgAction('over','roll_5')" onmouseout="PPImgAction('out','roll_5')"><img src="wpimages/wp003c5e8f_06.png" border="0" width="189" height="139" id="roll_5" name="roll_5" title="" alt="Family Access Settings" onload="OnLoadPngFix()" style="position:absolute;left:201px;top:507px;"></a>
+<a href="page14.html" onmouseover="PPImgAction('over','roll_3')" onmouseout="PPImgAction('out','roll_3')"><img src="wpimages/wpb526f496_06.png" border="0" width="189" height="139" id="roll_3" name="roll_3" title="" alt="Message Center" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:362px;"></a>
+<map id="map0" name="map0">
+    <area shape="rect" coords="0,0,171,32" href="page14.html" alt="">
+</map>
+<img src="wpimages/wp7215d23f_06.png" border="0" width="170" height="31" id="art_7" title="" alt="Message Center&#10;" onload="OnLoadPngFix()" usemap="#map0" style="position:absolute;left:12px;top:465px;">
+<a href="page19.html" onmouseover="PPImgAction('over','roll_4')" onmouseout="PPImgAction('out','roll_4')"><img src="wpimages/wp003c5e8f_06.png" border="0" width="189" height="139" id="roll_4" name="roll_4" title="" alt="Appointtments" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:507px;"></a>
+<img src="wpimages/wpb895c28d_06.png" border="0" width="189" height="67" id="qs_34" alt="" onload="OnLoadPngFix()" style="position:absolute;left:396px;top:72px;">
+<img src="wpimages/wpb895c28d_06.png" border="0" width="189" height="67" id="qs_35" alt="" onload="OnLoadPngFix()" style="position:absolute;left:201px;top:72px;">
+<img src="wpimages/wpb895c28d_06.png" border="0" width="189" height="67" id="qs_36" alt="" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:72px;">
+<a href="index.html"><img src="wpimages/wp605812f0_06.png" border="0" width="390" height="66" id="pic_39" title="" alt="Home" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:0px;"></a>
+<img src="wpimages/wp866c4bf4_06.png" border="0" width="384" height="67" id="qs_10" alt="" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:145px;">
+<img src="wpimages/wpf26fc03c_06.png" border="0" width="189" height="67" id="qs_12" alt="" onload="OnLoadPngFix()" style="position:absolute;left:396px;top:145px;">
+<img src="wpimages/wpf26fc03c_06.png" border="0" width="189" height="67" id="qs_14" alt="" onload="OnLoadPngFix()" style="position:absolute;left:590px;top:145px;">
+<img src="wpimages/wpbe38df49_06.png" border="0" width="189" height="66" id="qs_20" alt="" onload="OnLoadPngFix()" style="position:absolute;left:785px;top:145px;">
+<img src="wpimages/wp33c60b0d_06.png" border="0" width="189" height="66" id="qs_25" alt="" onload="OnLoadPngFix()" style="position:absolute;left:396px;top:652px;">
+<img src="wpimages/wp33c60b0d_06.png" border="0" width="189" height="66" id="qs_26" alt="" onload="OnLoadPngFix()" style="position:absolute;left:590px;top:652px;">
+<img src="wpimages/wp33c60b0d_06.png" border="0" width="189" height="66" id="qs_27" alt="" onload="OnLoadPngFix()" style="position:absolute;left:785px;top:652px;">
+<img src="wpimages/wp00530980_06.png" border="0" width="384" height="66" id="qs_24" alt="" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:652px;">
+<img src="wpimages/wp09215629_06.png" border="0" width="189" height="66" id="qs_30" alt="" onload="OnLoadPngFix()" style="position:absolute;left:396px;top:724px;">
+<map id="map1" name="map1">
+    <area shape="rect" coords="113,18,302,54" href="page32.html" alt="">
+    <area shape="poly" coords="348,58,357,53,362,47,364,42,362,32,358,23,351,16,342,12,336,10,329,14,320,19,316,27,316,42,321,51,329,56,332,60,348,60" href="page32.html" alt="">
+</map>
+<img src="wpimages/wpd4f9db6e_06.png" border="0" width="384" height="66" id="art_11" title="" alt="Your Preferences&#10;" onload="OnLoadPngFix()" usemap="#map1" style="position:absolute;left:590px;top:724px;">
+<div style="position:absolute;left:6px;top:797px;width:968px;height:68px;">
+    <div class="Body-P">
+        <span class="Body-C">YourHealth</span><span class="Body-C-C0"> copyright 2012 by WDean Medical </span></div>
+</div>
+<map id="map2" name="map2">
+    <area shape="rect" coords="0,0,151,32" href="page29.html" alt="">
+</map>
+<img src="wpimages/wp36788a36_06.png" border="0" width="150" height="31" id="art_4" title="" alt="Administrative&#10;" onload="OnLoadPngFix()" usemap="#map2" style="position:absolute;left:402px;top:609px;">
+<map id="map3" name="map3">
+    <area shape="rect" coords="0,0,141,62" href="page28.html" alt="">
+</map>
+<img src="wpimages/wp9786fc31_06.png" border="0" width="140" height="61" id="art_5" title="" alt="Your Family’s&#10;Records&#10;" onload="OnLoadPngFix()" usemap="#map3" style="position:absolute;left:206px;top:579px;">
+<map id="map4" name="map4">
+    <area shape="rect" coords="0,0,149,32" href="page19.html" alt="">
+</map>
+<img src="wpimages/wp2c5f6fbe_06.png" border="0" width="148" height="31" id="art_6" title="" alt="Appointments&#10;" onload="OnLoadPngFix()" usemap="#map4" style="position:absolute;left:12px;top:609px;">
+<a href="page2.html" onmouseover="PPImgAction('over','roll_21')" onmouseout="PPImgAction('out','roll_21')"><img src="wpimages/wp7048100f_06.png" border="0" width="189" height="139" id="roll_21" name="roll_21" title="" alt="Your Medical Records" onload="OnLoadPngFix()" style="position:absolute;left:6px;top:217px;"></a>
+<map id="map5" name="map5">
+    <area shape="rect" coords="0,0,141,62" href="page2.html" alt="">
+</map>
+<img src="wpimages/wpf33f6060_06.png" border="0" width="140" height="61" id="art_30" title="" alt="Your Medical&#10;Records&#10;" onload="OnLoadPngFix()" usemap="#map5" style="position:absolute;left:12px;top:289px;">
+<a href="page30.html" onmouseover="PPImgAction('over','roll_22')" onmouseout="PPImgAction('out','roll_22')"><img src="wpimages/wpb526f496_06.png" border="0" width="189" height="139" id="roll_22" name="roll_22" title="" alt="New User Sign Up" onload="OnLoadPngFix()" style="position:absolute;left:785px;top:362px;"></a>
+<map id="map6" name="map6">
+    <area shape="rect" coords="0,0,107,62" href="page30.html" alt="">
+</map>
+<img src="wpimages/wpa7c5528e_06.png" border="0" width="106" height="61" id="art_31" title="" alt="New User&#10;Sign Up&#10;" onload="OnLoadPngFix()" usemap="#map6" style="position:absolute;left:790px;top:435px;">
+<a href="page16.html" onmouseover="PPImgAction('over','roll_30')" onmouseout="PPImgAction('out','roll_30')"><img src="wpimages/wp003c5e8f_06.png" border="0" width="189" height="139" id="roll_30" name="roll_30" title="" alt="Get Medical Advice" onload="OnLoadPngFix()" style="position:absolute;left:590px;top:507px;"></a>
+<map id="map7" name="map7">
+    <area shape="rect" coords="0,0,172,63" href="page16.html" alt="">
+</map>
+<img src="wpimages/wp5e6d2c4b_06.png" border="0" width="171" height="62" id="art_38" title="" alt="Send A Message&#10;To Your Doctor&#10;" onload="OnLoadPngFix()" usemap="#map7" style="position:absolute;left:596px;top:578px;">
+<form id="form_25" name="userinfo_2" onsubmit="return validate_form_25(this)" action="" method="post" target="_self" enctype="application/x-www-form-urlencoded" style="margin:0;position:absolute;left:790px;top:507px;width:184px;height:133px;">
+<div id="txt_4" style="position:absolute;left:0px;top:33px;width:61px;height:16px;overflow:hidden;">
+<p class="Normal-P"><label for="edit_1"><span class="Normal-C">Username</span></label></p>
+</div>
+<input type="text" id="edit_1" name="USERNAME" maxlength="50" value="" style="position:absolute; left:67px; top:30px; width:100px;">
+<div id="txt_5" style="position:absolute;left:0px;top:69px;width:61px;height:16px;overflow:hidden;">
+<p class="Normal-P"><label for="edit_2"><span class="Normal-C">Password</span></label></p>
+</div>
+<input type="password" id="edit_2" name="PASSWORD" maxlength="25" value="" style="position:absolute; left:67px; top:66px; width:100px;">
+<div style="position:absolute;left:70px;top:102px;width:100px;height:22px;"><button type="submit" id="btn_1" class="Button1" style="width:100px;height:22px;"><span>Submit</span></button></div>
+</form>
+<map id="map8" name="map8">
+    <area shape="rect" coords="0,0,62,32" href="page31.html" alt="">
+</map>
+<img src="wpimages/wp44e48542_06.png" border="0" width="61" height="31" id="art_8" title="" alt="FAQs&#10;" onload="OnLoadPngFix()" usemap="#map8" style="position:absolute;left:790px;top:319px;">
+<img src="wpimages/wp0644656e_06.png" border="0" width="257" height="39" id="art_43" title="" alt="New User - Sign Up&#10;" onload="OnLoadPngFix()" style="position:absolute;left:22px;top:159px;">
+<a href="javascript:history.back()" onmouseover="PPImgAction('over','roll_8')" onmouseout="PPImgAction('out','roll_8')"><img src="wpimages/wped7ba1e1_06.png" border="0" width="189" height="140" id="roll_8" name="roll_8" title="" alt="Back (history)" onload="OnLoadPngFix()" style="position:absolute;left:785px;top:362px;"></a>
+<map id="map9" name="map9">
+    <area shape="rect" coords="0,0,59,33" href="javascript:history.back()" alt="">
+    <area shape="rect" coords="0,0,59,33" href="page30.html" alt="">
+</map>
+<img src="wpimages/wp55b9e3ce_06.png" border="0" width="58" height="32" id="art_22" title="" alt="Back&#10;" onload="OnLoadPngFix()" usemap="#map9" style="position:absolute;left:790px;top:464px;">
+<form id="form_11" name="WDeanMedicalInfo" onsubmit="return validate_form_11(this)" action="mailto:info@wdeanmedical.com" method="post" target="_self" enctype="text/plain" style="margin:0;position:absolute;left:327px;top:245px;width:327px;height:233px;">
+<div id="txt_2" style="position:absolute;left:12px;top:8px;width:89px;height:21px;overflow:hidden;">
+<p class="Normal-P"><label for="edit_20"><span class="Normal-C-C0">Name</span></label></p>
+</div>
+<input type="text" id="edit_20" name="NAME" maxlength="50" value="" style="position:absolute; left:113px; top:8px; width:201px;">
+<div id="txt_95" style="position:absolute;left:11px;top:39px;width:90px;height:20px;overflow:hidden;">
+<p class="Normal-P"><label for="edit_21"><span class="Normal-C-C0">E-<wbr>mail Address</span></label></p>
+</div>
+<input type="text" id="edit_21" name="EMAIL" maxlength="100" value="" style="position:absolute; left:113px; top:38px; width:201px;">
+<div id="txt_3" style="position:absolute;left:11px;top:100px;width:90px;height:20px;overflow:hidden;">
+<p class="Normal-P"><label for="text_1"><span class="Normal-C-C0">Comments</span></label></p>
+</div>
+<textarea id="text_1" name="COMMENT" rows="5" cols="22" style="position:absolute; left:113px; top:100px; width:201px; height:86px;"></textarea>
+<input type="submit" style="position:absolute; left:233px; top:199px; width:81px; height:22px;" id="butn_1" value="Submit">
+<input type="reset" style="position:absolute; left:113px; top:199px; width:76px; height:22px;" id="butn_2" value="Reset">
+<div id="txt_31" style="position:absolute;left:11px;top:68px;width:90px;height:20px;overflow:hidden;">
+<p class="Normal-P"><label for="edit_19"><span class="Normal-C-C0">Phone Address</span></label></p>
+</div>
+<input type="text" id="edit_19" name="EMAIL" maxlength="100" value="" style="position:absolute; left:113px; top:67px; width:201px;">
+</form>
+<img src="wpimages/wpf5bd1a88_05_06.jpg" border="0" width="60" height="67" id="pic_57" alt="" style="position:absolute;left:915px;top:72px;">
+<div id="txt_60" style="position:absolute;left:592px;top:72px;width:323px;height:66px;overflow:hidden;">
+<p class="Body-P-P0"><span class="Body-C-C1"> Patient Portal</span></p>
+</div>
+<script type="text/javascript" src="wpscripts/jsValidation.js"></script>
+</div>
+</body>
+</html>
